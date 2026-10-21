@@ -10,3 +10,7 @@
 - [ ] **Meta Ads (contas bloqueadas)** — escolher o próximo passo na sessão.
 - [ ] **Limite semanal** — evitar abrir várias sessões paralelas para o mesmo assunto.
 - [ ] **Instalar Claude Code local + skills do Vibehub** — ver `99-Setup/`.
+      A nuvem recebe 403 em `auth.vibehub.academy` (2026-10-21): os zips só baixam no notebook.
+- [x] **Skills de Obsidian (kepano)** — já estão em `.claude/skills/` do vault (vêm junto no clone).
+- [ ] **Obsidian no notebook** — abrir a pasta como vault e instalar o plugin Obsidian Git
+      (as configurações já vêm prontas em `.obsidian/`).

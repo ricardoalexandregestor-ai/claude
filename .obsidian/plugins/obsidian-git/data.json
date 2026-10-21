@@ -1,0 +1,11 @@
+{
+  "autoPullOnBoot": true,
+  "autoSaveInterval": 10,
+  "autoPushInterval": 0,
+  "autoPullInterval": 10,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "commitMessage": "vault: {{date}}",
+  "autoCommitMessage": "vault: auto {{date}}",
+  "syncMethod": "merge"
+}
