@@ -1,0 +1,12 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+.DS_Store
+.env
+*.key
+
+# codigo dos plugins da comunidade (instalados pelo proprio Obsidian)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json

@@ -1,8 +1,18 @@
-# claude
+# Cérebro do Ricardo (Obsidian + Claude)
 
-Skills do Claude para gestão de tráfego no Meta Ads.
+Vault do Obsidian sincronizado com o GitHub, lido pelo Claude em toda sessão.
+
+- Instruções para o Claude: [`CLAUDE.md`](CLAUDE.md)
+- Instalar o Claude Code no notebook: [`99-Setup/01-Claude-Code-no-notebook.md`](99-Setup/01-Claude-Code-no-notebook.md)
+- Abrir este vault no Obsidian: [`99-Setup/02-Obsidian-com-GitHub.md`](99-Setup/02-Obsidian-com-GitHub.md)
+- Skills e conectores: [`99-Setup/03-Skills-e-Conectores.md`](99-Setup/03-Skills-e-Conectores.md)
+- Pendências: [`00-Inbox/Pendencias.md`](00-Inbox/Pendencias.md)
+
+## Skills deste repositório
 
 As skills ficam em `.claude/skills/`, uma pasta por skill, cada uma com seu `SKILL.md`. O Claude Code carrega todas automaticamente em qualquer sessão aberta neste repositório.
+
+### Gestão de tráfego no Meta Ads
 
 | # | Skill | Comando | Para que serve |
 |---|---|---|---|
@@ -19,3 +29,8 @@ Não precisa chamar pelo comando: basta pedir normalmente ("meu CPA subiu 40%, s
 Fluxo sugerido: Calculadora (2) → Estrutura (3) → Criativos (4) → Copy (5) → Políticas (6) → Diagnóstico (1) → Relatório (7).
 
 Detalhes e avisos em [`.claude/skills/LEIA-ME.md`](.claude/skills/LEIA-ME.md).
+
+### Formato do Obsidian
+
+Ensinam o Claude a escrever no padrão do vault — links `[[nota]]`, propriedades, Canvas e Bases:
+`obsidian-markdown`, `obsidian-bases`, `obsidian-cli`, `json-canvas`, `knap`, `defuddle`.
