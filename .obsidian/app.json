@@ -5,5 +5,7 @@
   "useMarkdownLinks": false,
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
-  "userIgnoreFilters": [".claude/"]
+  "userIgnoreFilters": [
+    ".claude/"
+  ]
 }
