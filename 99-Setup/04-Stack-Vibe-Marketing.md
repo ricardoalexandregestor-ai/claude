@@ -74,7 +74,7 @@ pode ignorar. E o repositório `video-use` ainda não foi clonado (`06-clone-rep
 
 Duas pastas ficaram fora do PATH. Um comando resolve as duas (rode e reabra o terminal):
 ```powershell
-[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable("Path","User") + ";$HOME\.localin;$env:LOCALAPPDATA\Python\pythoncore-3.15-64\Scripts", "User")
+[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable("Path","User") + ";$HOME\.local\bin;$env:LOCALAPPDATA\Python\pythoncore-3.15-64\Scripts", "User")
 ```
 Sem isso, `claude` e os executáveis do pip só funcionam pelo caminho completo.
 
