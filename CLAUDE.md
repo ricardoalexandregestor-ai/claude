@@ -53,6 +53,7 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
   `roteiros-virais` e `videos-multicamera`.
 - O **CLI `claude` não está instalado** (uso é pelo app desktop), então `claude mcp add/list`
   não roda neste notebook. Conectores são gerenciados pelo app.
+- Windows: 815 GB livres de 931 GB. Na tomada **não suspende nem desliga a tela** — bom para sessões longas.
 
 ## Conectores ativos (claude.ai → Conectores)
 Canva · GitHub · Gmail · Google Drive · Google Agenda · Notion · Meta Ads · Supabase · Lovable ·

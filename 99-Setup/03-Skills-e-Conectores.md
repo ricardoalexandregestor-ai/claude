@@ -40,16 +40,42 @@ O pacote `vha-vibe-marketing-completo` traz 11 skills dentro. Total instalado: *
 | Supabase | `https://supabase.com/docs/guides/getting-started/mcp` | token do projeto |
 | Stripe | `https://docs.stripe.com/mcp` | Agent Key (ver aviso abaixo) |
 
+## Perplexity MCP (oficial)
+
+- Repositório oficial: https://github.com/perplexityai/modelcontextprotocol
+- Documentação: https://docs.perplexity.ai/docs/getting-started/integrations/claude-code
+- Pacote oficial: `@perplexity-ai/mcp-server`
+- Ferramentas: `perplexity_search`, `perplexity_ask`, `perplexity_research`, `perplexity_reason`
+- **Exige o CLI `claude`**, que não está instalado neste notebook.
+
+Passo 1 — guardar a chave como variável de ambiente (a chave nunca entra no repositório):
+```powershell
+[System.Environment]::SetEnvironmentVariable("PERPLEXITY_API_KEY","COLE_A_CHAVE_AQUI","User")
+```
+Passo 2 — registrar o MCP no escopo de usuário (abra um PowerShell novo depois do passo 1):
+```powershell
+claude mcp add --scope user perplexity --env PERPLEXITY_API_KEY=$env:PERPLEXITY_API_KEY -- npx -y @perplexity-ai/mcp-server
+```
+Alternativa remota (sem instalar nada, login pelo `/mcp`):
+```powershell
+claude mcp add --scope user --transport http perplexity https://api.perplexity.ai/mcp
+```
+Conferir depois: `claude mcp list` e `/mcp` dentro da sessão.
+Chave em https://www.perplexity.ai/settings/api — **paga por uso**.
+
+> A sintaxe do `claude mcp add` mudou entre versões. Confirme na documentação oficial
+> antes de colar, se o comando reclamar.
+
 ## MCPs pesquisados (status em 2026-10-21)
 | Ferramenta | MCP oficial? | Chave paga? | Como instalar |
 |---|---|---|---|
-| Perplexity | sim | sim, por uso | remoto: `https://api.perplexity.ai/mcp` com Bearer token |
+| Perplexity | **sim** (`perplexityai/modelcontextprotocol`) | sim, por uso | ver seção acima |
 | Firecrawl | sim (`firecrawl-mcp`) | plano grátis disponível | `npx -y firecrawl-mcp` |
 | Stripe | sim (Agent Toolkit) | chave da conta | remoto `https://mcp.stripe.com` |
 | Higgsfield | sim (no arsenal) | sim | endpoint remoto acima |
 | Manus | **não** — só de terceiros | sim | tem API oficial (`api.manus.ai`), MCP é comunitário |
-| Hubla | não confirmado | — | sem documentação pública localizada |
-| Behance | não confirmado | — | sem API pública localizada |
+| Hubla | não confirmado | — | sem documentação pública localizada (busca sem resultado) |
+| Behance | **não** — API fora do ar desde 2021 | — | Adobe nunca restaurou; portal de dev removido |
 | YouTube Create | não | — | app de celular, sem API |
 | Node | não se aplica | — | é runtime, não MCP (já instalado: v26.7.0) |
 

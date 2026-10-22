@@ -11,8 +11,9 @@
       `roteiros-virais` não rodam: `winget install Gyan.FFmpeg` e `winget install yt-dlp.yt-dlp`.
 - [ ] **CLI `claude` não instalado** — sem ele não dá pra rodar `claude mcp add/list`.
       Instalar com `irm https://claude.ai/install.ps1 | iex` se quiser MCPs por linha de comando.
-- [ ] **Chave da Perplexity** — criar em https://www.perplexity.ai/settings/api e guardar
-      como variável de ambiente `PERPLEXITY_API_KEY` (nunca no repositório).
+- [ ] **Perplexity MCP** — MCP oficial confirmado (`perplexityai/modelcontextprotocol`).
+      Depende do CLI `claude`. Comandos prontos em `99-Setup/03-Skills-e-Conectores.md`.
+      Chave em https://www.perplexity.ai/settings/api, guardada em `PERPLEXITY_API_KEY`.
 - [ ] **Conector Adspirer** — exige autorização via `/mcp` antes de usar.
 - [ ] **Stripe MCP** — a partir de 31/10/2026 só aceita Agent Key ou OAuth, não secret key.
 - [ ] **GitHub sem escrita no `ricardinhonego-cmd/meu-primeiro-projeto`** — instalar o app Claude
