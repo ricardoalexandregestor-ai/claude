@@ -5,6 +5,8 @@
 - [x] **CLI `claude` 2.1.307** instalado (falta só pôr a pasta no PATH, ver abaixo).
 - [x] **Branch `claude/zealous-knuth-pb7bs6`** apagado no local e no GitHub (estava todo no `main`).
 - [x] **Energia** — na tomada o notebook já está configurado para nunca suspender.
+- [x] **Limpeza do Downloads (22/10)** — 26 arquivos (96,6 MB) enviados para a Lixeira:
+      14 instaladores `Claude Setup` e 12 zips de skills já instaladas. Dá pra restaurar.
 - [x] **Skills de Obsidian (kepano)** — em `.claude/skills/` do vault (vêm junto no clone).
 - [x] **Instalar as skills do Vibehub** — 23 em `~/.claude/skills` no notebook.
 - [x] **Obsidian no notebook** — vault registrado, aberto e plugin Obsidian Git 2.42.0 instalado.
@@ -21,8 +23,7 @@
 - [ ] **Stripe MCP** — a partir de 31/10/2026 só aceita Agent Key ou OAuth, não secret key.
 - [ ] **GitHub sem escrita no `ricardinhonego-cmd/meu-primeiro-projeto`** — instalar o app Claude
       nesse repositório: https://github.com/apps/claude/installations/select_target
-- [ ] **Limpeza da pasta Downloads** — 14 instaladores `Claude Setup (N).exe` (95,2 MB) e
-      12 zips de skills já instaladas (1,4 MB). Total 96,6 MB, aguardando aprovação.
+
 
 ## Abertas — projetos
 - [ ] **Inventário Maria Sarto** — push autorizado; pedido enviado à sessão original em 2026-10-01.
