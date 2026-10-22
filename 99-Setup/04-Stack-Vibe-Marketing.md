@@ -20,6 +20,7 @@ Levantado pelo `healthcheck.py` da skill `vha-vibe-marketing` em 22/10/2026.
 | ffmpeg 9.0.2 / ffprobe / yt-dlp 2026.08.19 | instalados |
 | Git 2.55 · Node 26.7 · npm 11.19 · Python 3.15 | instalados |
 | CLI `claude` 2.1.307 | instalado, **falta pôr no PATH** |
+| jq · uv · Pillow · httpx · numpy · librosa · google-genai | instalados em 22/10 |
 
 ## Custo do stack (fonte: `orquestracao/custos.md` da skill)
 
@@ -33,18 +34,49 @@ Levantado pelo `healthcheck.py` da skill `vha-vibe-marketing` em 22/10/2026.
 O mínimo de $20 já entrega carrossel, reels-aula, thumbnail, headline, edição de vídeo
 e transcrição. Publicação automática em vários perfis exige o Upload-Post.
 
-## Falta instalar (programas) — precisa da sua aprovação
+## Instalado em 22/10 ✅
+
+| Item | Versão |
+|---|---|
+| jq | 1.8.2 |
+| uv / uvx | instalado |
+| Pillow | 13.0.0 |
+| httpx | 0.28.1 |
+| numpy | 2.5.4 |
+| librosa | 1.0.0 |
+| google-genai | 2.32.0 |
+
+O healthcheck caiu de **19 para 8 erros**.
+
+## Whisper local: bloqueado no Python 3.15 ⚠️
+
+`openai-whisper` **não instala** nesta máquina. Dois motivos, ambos confirmados por teste:
+
+1. O **PyTorch não tem versão para Python 3.15** — `pip index versions torch` responde
+   "No matching distribution found for torch". O PyTorch ainda não publicou wheel para 3.15.
+2. O próprio `openai-whisper` falha no build por falta de `pkg_resources`.
+
+Duas saídas:
+- **Usar a ElevenLabs Scribe** (US$ 5/mês, já prevista no stack). As skills
+  `roteiros-virais` e `cortes-multi-perfil` já a tratam como opção principal. **Recomendado.**
+- **Python paralelo só para o Whisper**, usando o `uv` que acabou de ser instalado:
+  `uv python install 3.12` e um ambiente separado. Grátis, mas baixa ~2,5 GB de torch.
+
+## Falta instalar (o que sobrou)
 
 ```powershell
-winget install jqlang.jq
-winget install astral-sh.uv
+winget install Amazon.AWSCLI      # só se for usar o Cloudflare R2
 ```
-E as bibliotecas Python das skills de vídeo e imagem:
+O healthcheck também pede `lsof`, que é ferramenta de macOS/Linux — **irrelevante no Windows**,
+pode ignorar. E o repositório `video-use` ainda não foi clonado (`06-clone-repos.sh`).
+
+## PATH — dois ajustes pendentes
+
+Duas pastas ficaram fora do PATH. Um comando resolve as duas (rode e reabra o terminal):
 ```powershell
-pip install pillow httpx numpy librosa google-genai openai-whisper
+[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable("Path","User") + ";$HOME\.localin;$env:LOCALAPPDATA\Python\pythoncore-3.15-64\Scripts", "User")
 ```
-> `openai-whisper` é grande (modelo de transcrição). Alternativa mais leve:
-> usar a transcrição da ElevenLabs, que já está no stack pago.
+Sem isso, `claude` e os executáveis do pip só funcionam pelo caminho completo.
 
 ## Falta criar conta e pegar chave — só você pode
 
