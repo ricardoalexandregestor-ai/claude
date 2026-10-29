@@ -22,3 +22,4 @@ Fluxo: a Sarto manda as anotações do Gemini por e-mail → o Claude resume e m
   A Sarto já usava essa convenção ("Lesson 03 - AULA BASE", "Tirar melhores perguntas").
 - Lesson 07: base = gravação 4 (18:58). Perguntas = gravações 1, 2 e 3. [Briefing](https://docs.google.com/document/d/1ktHN6Z_bik5zeTZnyXU1l4NmG1YTBnUzq52F8WVhO5w/edit)
 - Editor: Drayson Alyson. A última enviada foi a Lesson 11. Pendentes: Lesson 07 (curso principal) e o curso básico a partir da 03.
+- Lesson 13 (26/10, Turma 01, 09:29): AULA BASE, conforme instrução da Sarto: manter só a 1ª rodada de perguntas estilo entrevista e cortar as repetições. [Briefing](https://docs.google.com/document/d/1OLvqogmeqCz92Jczb3nVM4OjF-oUMp8av6KnmtFDvj4/edit). Faltam as anotações do Gemini para marcar os minutos.
