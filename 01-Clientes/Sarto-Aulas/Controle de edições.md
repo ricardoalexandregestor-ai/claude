@@ -8,7 +8,7 @@ Conta só as solicitações processadas pelo Claude. As aulas anteriores (até a
 
 | Data | E-mails | Vídeos | Base | Perguntas | Aulas | PDF |
 |---|---|---|---|---|---|---|
-| 2026-10-30 | 3 | 4 | 2 | 2 | T02 L05 (base + perguntas), T01 L15 (base), T01 L17 (perguntas) | [[2026-10-30-Pedido-edicao-Sarto.pdf]] |
+| 2026-10-30 | 3 | 4 | 2 | 2 | T02 L05 (base + perguntas), T01 L15 (base), T01 L15 (perguntas) | [[2026-10-30-Pedido-edicao-Sarto.pdf]] |
 
 **Total acumulado: 4 vídeos** (2 base + 2 perguntas)
 
