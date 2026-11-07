@@ -25,11 +25,16 @@ O pacote `vha-vibe-marketing-completo` traz 11 skills dentro. Total instalado: *
 | GitHub | conectado | falta escrita no `meu-primeiro-projeto` (ver Pendências) |
 | Gmail · Drive · Agenda | conectado | |
 | Notion · Trello | conectado | |
-| Meta Ads | conectado | |
+| Meta Ads (oficial) | **reconectar** (07/11) | `needs_reconnect` no app |
+| Pipeboard Meta Ads | **reconectar o Facebook** (07/11) | https://pipeboard.co/connections |
+| Windsor.ai | **leitura pausada** | plano grátis = 1 conta; há 15 ligadas |
 | Supabase · Lovable | conectado | |
-| vidIQ · Magnific · Apify | conectado | |
+| vidIQ | **reconectar** (07/11) | |
+| Magnific · Apify | conectado | |
 | Vibehub | conectado | aulas, arsenal, prompts, templates |
-| Adspirer | **exige autorização** | precisa autorizar via `/mcp` antes de usar |
+| Adspirer | conectado | só `BM- ANTONIO JUNIOR` (Meta) + LinkedIn Sarto; cota 11/15 no mês |
+
+Auditoria completa dos conectores: [[2026-11-07-Auditoria-Geral]].
 
 ## MCPs do arsenal Vibehub
 | MCP | Endereço | Chave |
@@ -91,8 +96,8 @@ Chave em https://www.perplexity.ai/settings/api — **paga por uso**.
 | Git 2.55.0 | ok | — |
 | Node 26.7.0 / npm 11.19.0 | ok | — |
 | Python 3.15.0 | ok | — |
-| ffmpeg | **falta** | `winget install Gyan.FFmpeg` |
-| yt-dlp | **falta** | `winget install yt-dlp.yt-dlp` |
+| ffmpeg 9.0.2 | ok (21/10) | — |
+| yt-dlp 2026.08.19 | ok (21/10) | — |
 
 ## Aulas do Vibehub sobre este setup
 - Módulo 2, Aula 2 — Ambiente: https://vibehub.academy/app/academy/modulo-2-a-base/ambiente
