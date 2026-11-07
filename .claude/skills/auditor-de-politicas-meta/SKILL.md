@@ -69,3 +69,19 @@ Afirmar ou insinuar que o leitor tem uma característica: saúde física ou ment
 - Não garanta aprovação. Diga "reduz o risco", nunca "vai passar".
 - Não sugira formas de enganar a análise (camuflar páginas, trocar o conteúdo depois de aprovado, usar contas de terceiros, escrever palavras com símbolos para driblar o filtro). Isso viola os termos e coloca a conta e o negócio em risco — explique isso se o usuário pedir.
 - Reescreva para ficar **em conformidade e ainda persuasivo**: o objetivo é um anúncio que vende e passa, não um anúncio sem graça.
+
+## Contexto da Agência RA (ler antes de responder)
+- **Nota do cliente**: antes de qualquer análise, ler `01-Clientes/<cliente>.md` (briefing, conta, metas, histórico).
+  Ao terminar, registrar a decisão/entrega no **Histórico** dessa nota e no diário `05-Diario/AAAA-MM-DD.md`.
+- **Dados ao vivo** (não pedir para o Ricardo colar se o conector estiver vivo), nesta ordem:
+  1. Pipeboard Meta Ads (`get_insights`, `get_campaigns`, `get_adsets`, `get_ads`) — principal.
+  2. Windsor.ai (`get_data`, connector `facebook`) — leitura; ações de pausar/ativar/verba.
+  3. Adspirer (`get_meta_campaign_performance`) — só a conta BM- ANTONIO JUNIOR.
+  Se der erro de token/sessão: avisar em 1 linha que o Facebook precisa ser reconectado e seguir com os dados colados.
+- **Perfil da carteira**: negócios locais da Grande João Pessoa (madeireiras, clínicas odonto/estética, imobiliária,
+  pet, joalheria, educação financeira) + infoproduto. Objetivo mais comum: **conversa no WhatsApp**.
+  Referências reais da casa: custo por conversa de R$ 3,01 (Madeireira Carajás) e R$ 3,36 (Pau D'Arco),
+  CPM ~R$ 9,81, campanhas de R$ 15/dia. Comparar sempre a conta com ela mesma primeiro.
+- **CRM RADAR** (`02-Projetos/CRM-Trafego.md`): quando o cliente usa o CRM, usar vendas e ROAS reais, não só CPL.
+- **Regra**: nada que gaste dinheiro ou mude campanha (ativar, pausar, verba) sem "sim" explícito do Ricardo.
+- Nichos sensíveis da carteira: odontologia/estética (antes e depois, promessa de resultado), educação financeira (promessa de ganho, categoria especial de crédito quando aplicável), imobiliária (categoria especial de moradia).

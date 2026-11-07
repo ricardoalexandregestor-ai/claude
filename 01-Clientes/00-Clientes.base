@@ -1,0 +1,14 @@
+filters:
+  and:
+    - tipo == "cliente"
+views:
+  - type: table
+    name: Carteira
+    order:
+      - file.name
+      - status
+      - nicho
+      - conta_meta
+      - gasto_acumulado
+      - verba_mensal
+      - atualizado

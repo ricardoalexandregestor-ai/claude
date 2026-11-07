@@ -96,3 +96,20 @@ Nomes bons fazem os relatórios se lerem sozinhos — explique isso ao usuário.
 - Não crie estrutura maior do que o orçamento suporta.
 - Não prometa resultados nem prazos de "saída do aprendizado".
 - Não recomende segmentação por características sensíveis (saúde, religião, orientação sexual, etc.) — além de proibido, a Meta removeu muitas dessas opções.
+
+## Contexto da Agência RA (ler antes de responder)
+- **Nota do cliente**: antes de qualquer análise, ler `01-Clientes/<cliente>.md` (briefing, conta, metas, histórico).
+  Ao terminar, registrar a decisão/entrega no **Histórico** dessa nota e no diário `05-Diario/AAAA-MM-DD.md`.
+- **Dados ao vivo** (não pedir para o Ricardo colar se o conector estiver vivo), nesta ordem:
+  1. Pipeboard Meta Ads (`get_insights`, `get_campaigns`, `get_adsets`, `get_ads`) — principal.
+  2. Windsor.ai (`get_data`, connector `facebook`) — leitura; ações de pausar/ativar/verba.
+  3. Adspirer (`get_meta_campaign_performance`) — só a conta BM- ANTONIO JUNIOR.
+  Se der erro de token/sessão: avisar em 1 linha que o Facebook precisa ser reconectado e seguir com os dados colados.
+- **Perfil da carteira**: negócios locais da Grande João Pessoa (madeireiras, clínicas odonto/estética, imobiliária,
+  pet, joalheria, educação financeira) + infoproduto. Objetivo mais comum: **conversa no WhatsApp**.
+  Referências reais da casa: custo por conversa de R$ 3,01 (Madeireira Carajás) e R$ 3,36 (Pau D'Arco),
+  CPM ~R$ 9,81, campanhas de R$ 15/dia. Comparar sempre a conta com ela mesma primeiro.
+- **CRM RADAR** (`02-Projetos/CRM-Trafego.md`): quando o cliente usa o CRM, usar vendas e ROAS reais, não só CPL.
+- **Regra**: nada que gaste dinheiro ou mude campanha (ativar, pausar, verba) sem "sim" explícito do Ricardo.
+- Padrão operacional da casa: skill `estrutura-campanha-funil` (3 conjuntos por camada × 4 criativos, topo/meio/fundo) e método `gestao-trafego-ra`. Use esta skill para o desenho e aquelas para a ficha de montagem.
+- Negócio local: segmentação por raio/bairros da Grande JP; conferir se o raio cobre Bayeux, Cabedelo e Santa Rita quando fizer sentido.
