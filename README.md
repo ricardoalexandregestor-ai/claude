@@ -7,6 +7,10 @@ Vault do Obsidian sincronizado com o GitHub, lido pelo Claude em toda sessão.
 - Abrir este vault no Obsidian: [`99-Setup/02-Obsidian-com-GitHub.md`](99-Setup/02-Obsidian-com-GitHub.md)
 - Skills e conectores: [`99-Setup/03-Skills-e-Conectores.md`](99-Setup/03-Skills-e-Conectores.md)
 - Pendências: [`00-Inbox/Pendencias.md`](00-Inbox/Pendencias.md)
+- Reconectar Meta Ads e conectores: [`99-Setup/05-Reconectar-Meta-e-Conectores.md`](99-Setup/05-Reconectar-Meta-e-Conectores.md)
+- Clientes (uma nota por conta): [`01-Clientes/`](01-Clientes/)
+- CRM RADAR (guia, oferta, status): [`02-Projetos/CRM-Trafego.md`](02-Projetos/CRM-Trafego.md)
+- Vibehub pessoal (aulas, arsenal, resumos): [`03-Conhecimento/Vibehub/`](03-Conhecimento/Vibehub/00-Indice.md)
 
 ## Skills deste repositório
 
