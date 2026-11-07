@@ -6,6 +6,9 @@
   "disablePush": false,
   "pullBeforePush": true,
   "commitMessage": "vault: {{date}}",
-  "autoCommitMessage": "vault: auto {{date}}",
-  "syncMethod": "merge"
+  "autoCommitMessage": "vault: auto {{date}} ({{numFiles}} arquivos)",
+  "syncMethod": "merge",
+  "autoBackupAfterFileChange": false,
+  "disablePopupsForNoChanges": true,
+  "showStatusBar": true
 }
