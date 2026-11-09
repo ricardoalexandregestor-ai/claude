@@ -29,3 +29,22 @@ atualizado: 2026-11-07
 
 ## Histórico
 - 2026-11-07 — nota criada na auditoria geral. Completar o briefing na próxima conversa sobre este cliente.
+
+## Projeto One Haus (Altiplano, João Pessoa)
+- CRECI-PB 18932-F · Página: "Antonio Júnior Corretor de Imóveis" (`1293675260499184`)
+- Business Manager: `1937984830220336`
+- Campanha: "AJ | One Haus | Investidores alto padrão | Leads" (`120251544872290429`) — PAUSADA, R$ 12,00/dia
+- Conjunto: "AJ | One Haus | Bairros nobres BR" (`120251544907840429`) — PAUSADO
+- 2 anúncios de vídeo, pausados (criados pelo Ricardo no Gerenciador)
+- Formulário de 6 perguntas em uso: `1756041846526957` — **não editar nem excluir**
+- Política de privacidade: https://sites.google.com/view/antoniojunior-imoveis/início
+- WhatsApp: link na sessão do Claude (não versionado — repo público)
+
+### Pendente — formulário enxuto
+Trocar o formulário de 6 perguntas por um de 4 campos (nome, telefone, e-mail, faixa de investimento).
+Texto pronto em `00-Inbox/One-Haus-Formulario-Enxuto.md`. Montagem manual no Gerenciador.
+
+## Histórico
+- 2026-11-09 — pedido para criar formulário enxuto do One Haus pela API: **não foi possível**.
+  Pipeboard no limite semanal do plano grátis; token Meta do Adspirer invalidado (senha trocada
+  ou sessão encerrada pela Meta); Windsor não cria formulário de leads. Nada foi alterado na conta.
