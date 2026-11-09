@@ -4,7 +4,7 @@ status: ativo
 nicho: 
 cidade:
 conta_meta: act_2204115130468584
-gasto_acumulado: R$ 123,13
+gasto_acumulado: R$ 404,90
 verba_mensal:
 atualizado: 2026-11-07
 ---
@@ -17,7 +17,7 @@ atualizado: 2026-11-07
 - Objetivo (leads / WhatsApp / vendas):
 
 ## Contas e acessos
-- Meta Ads: `act_2204115130468584`, gasto da vida toda R$ 123,13 (levantamento de 22/10/2026)
+- Meta Ads: `act_2204115130468584`, gasto da vida toda R$ 404,90 (atualizado em 09/11/2026)
 
 ## Métricas-alvo
 | Métrica | Meta | Real |

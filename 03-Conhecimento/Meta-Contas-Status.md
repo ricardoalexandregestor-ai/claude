@@ -5,9 +5,12 @@ data: 2026-10-22
 ---
 # Status das contas de anúncio — Meta Ads
 
-> ⚠️ **07/11/2026**: o Facebook invalidou a sessão (erro 190/460). Nenhum conector lê as contas até
-> reconectar ([[05-Reconectar-Meta-e-Conectores]]). Dados abaixo são de 22/10.
-> Adelaide Viana (GPS): cliente encerrou o tráfego. Pausar a campanha ao reconectar.
+> ✅ **09/11/2026**: Pipeboard reconectado. As 20 contas foram lidas de novo: 19 ativas, KiniBrasil continua CLOSED.
+> Adelaide Viana (GPS): campanha `GPS-FUNIL-3ETAPAS-SET26` está **PAUSADA** (alterada em 08/11).
+>
+> Gasto acumulado que mudou desde 22/10: Maria Sarto R$ 2.020,54 (+567,95) · Antonio Junior R$ 1.212,34 (+281,95) ·
+> Adelaide Viana R$ 4.001,68 (+652,43) · LM Stay Decor R$ 404,90 (+281,77) · Madeireira Carajás R$ 4.005,09 (+0,18).
+> As demais contas não mudaram.
 
 Levantado em 22/10/2026 pelo conector Pipeboard, **sem alterar nada**.
 

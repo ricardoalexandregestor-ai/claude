@@ -20,7 +20,7 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 - Ações que gastam dinheiro ou mudam campanha (ativar, pausar, verba) só com "sim" explícito.
 
 ## Decisões vigentes
-- **Adelaide Viana / GPS**: cliente parou o tráfego (07/11). Campanha 23859542649940790 deve ficar pausada.
+- **Adelaide Viana / GPS**: cliente parou o tráfego (07/11). Campanha 23859542649940790 **pausada** (conferido em 09/11).
 - **Post semanal automático**: cancelado (07/11).
 - **Obsidian Git**: sincroniza sozinho a cada 10 min (pull + commit + push). O Claude trabalha no branch da sessão
   e junta no `main` via PR quando o Ricardo pede.
@@ -76,8 +76,8 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 ## Conectores (claude.ai → Conectores) — conferido em 2026-11-07
 - **Funcionando**: Canva · GitHub · Gmail · Drive/Docs/Sheets/Slides · Agenda · Notion · Trello ·
   Supabase · Lovable · Magnific · Apify · Vibehub · Brightdeck · Adobe · morphix · Motion · Supermetrics.
-- **Meta Ads — atenção**: sessão do Facebook invalidada em 07/11 (guia: `99-Setup/05-Reconectar-Meta-e-Conectores.md`). Pipeboard perdeu o login do Facebook; o conector oficial "FACEBOOK META ADS"
-  e o vidIQ pedem reconexão; Windsor bloqueado (plano grátis = 1 conta); Adspirer só enxerga
+- **Meta Ads**: **Pipeboard reconectado em 09/11**, lendo as 20 contas (principal para ler e operar). O conector oficial "FACEBOOK META ADS"
+  e o vidIQ podem ainda pedir reconexão; Windsor bloqueado (plano grátis = 1 conta); Adspirer só enxerga
   `BM- ANTONIO JUNIOR` (cota 11/15 no mês). Antes de operar campanha, conferir qual está vivo.
 Sem conector oficial: **CapCut** (usar Remotion/Magnific/vidIQ) e **Gemini** (chave de API/OpenRouter).
 Tabela completa de conectores e MCPs em `99-Setup/03-Skills-e-Conectores.md`.
