@@ -91,6 +91,8 @@ não quer largar. Prioridade: Madeireira Carajás e Pau D'Arco (volume de conver
 | Banco desenhado (Supabase, 13 tabelas, RLS) | ✅ desde 19/09, reativado em 07/11 |
 | App — 1ª rodada (07/11, 10 créditos) | ✅ banco + RLS, 7 funis, dados demo, login (1º = owner), painel geral, clientes, Kanban + lista, ficha do lead, tarefas, painel do cliente, simulador |
 | App — 2ª rodada (09/11, 5 créditos) | ✅ criadas Importar CSV, Equipe, Configurações, formulário `/f/:token` (com LGPD) e portal `/portal/:token`, mais funções seguras no banco. O Lovable testou login e páginas públicas no navegador |
+| Sarto no banco (09/11) | ✅ nicho `ingles-maritimo`, cliente Sarto, colunas `respostas`/`ctwa_clid`, score automático testado (quente 100 / frio 10) |
+| Lovable sem créditos (09/11) | ⏳ telas da qualificação + marca "por Ricardo Alexandre" + correção do build: prompt pronto em [[CRM-Prompt-Lovable-pendente]] |
 | Build/typecheck | ⚠️ ainda com erros (ex.: `src/lib/remaining.functions.ts`). Falta **1 mensagem** de correção: no editor do Lovable, peça "corrija todos os erros de build e typecheck" |
 | Publicar (botão Publish no Lovable) | ⏳ você, quando aprovar a prévia |
 | Domínio próprio (ex.: crm.agenciara.com.br) | ⏳ opcional, no Lovable |
@@ -99,3 +101,39 @@ não quer largar. Prioridade: Madeireira Carajás e Pau D'Arco (volume de conver
 
 > O plano gratuito do Lovable tem poucos créditos por dia. Se a construção parar no meio, o próximo
 > pedido continua de onde parou (o Claude faz isso na próxima sessão).
+
+---
+
+## Como o RADAR trabalha (o caminho de um lead)
+
+```
+Anúncio (Meta) ──► Lead chega ──► Qualificação ──► Atendimento ──► Venda
+   │                 │               │                 │              │
+ UTM / ctwa_clid   WhatsApp ou     6 perguntas →     Kanban:         Ganho (valor)
+ dizem de qual     formulário      score 0–100 →     etapa por       ou Perdido
+ anúncio veio      /f/token        quente/morno/frio etapa + tarefa  (motivo)
+                                                                       │
+                     Painel do cliente / portal ◄── CPL · conversão · ROAS reais
+                     Fase 2: venda volta para a Meta (Conversions API) → o algoritmo
+                     passa a buscar gente parecida com quem COMPROU, não com quem só clicou.
+```
+
+1. **Entrada**: o lead chega pelo WhatsApp (anúncio Click-to-WhatsApp) ou pelo formulário `/f/token`.
+   No WhatsApp, o atendente cadastra em 20 s pelo cadastro rápido. No formulário, entra sozinho.
+2. **Qualificação**: perguntas do nicho → o banco calcula o **score** e a **temperatura**.
+   Quente = prioridade máxima (responder em até 5 min). Frio = nutrição, sem gastar o tempo do vendedor.
+3. **Kanban**: cada etapa tem uma mensagem pronta de WhatsApp. Arrastar o card registra o histórico.
+4. **Fechamento**: Ganho pede o valor; Perdido pede o motivo, e o motivo vira criativo.
+5. **Números**: o painel cruza a verba da Meta com as vendas do CRM: CPL, conversão, CAC, ROAS.
+6. **Fase 2, leads cada vez mais qualificados**: mandar para a Meta os eventos "Lead qualificado" e
+   "Compra" (Conversions API para mensagens, usando o `ctwa_clid` do clique). A campanha passa a
+   otimizar por quem vira aluno, não por quem só manda "oi".
+
+### Vídeos e leitura para entender CRM (externos, gratuitos)
+- Etapas de funil para configurar o CRM: https://www.youtube.com/watch?v=at5B7TlL0wo
+- Funil de vendas: o que é, etapas e como estruturar: https://www.youtube.com/watch?v=FuxdAE3QtTU
+- Funil de vendas para iniciantes: https://www.youtube.com/watch?v=1Q2oGUyVgi0
+- Gestão de funil usando um CRM: https://www.youtube.com/watch?v=M-iNtAcca2g
+- CRM no WhatsApp (RD Station): https://www.rdstation.com/blog/vendas/crm-no-whatsapp/
+- Conversions API para mensagens (Meta, oficial): https://developers.facebook.com/docs/marketing-api/conversions-api/business-messaging
+O Vibehub não tem aula específica de CRM. O mais próximo é o curso **Agente de WhatsApp** (atendimento automático).
