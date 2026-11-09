@@ -4,7 +4,7 @@ status: ativo
 nicho: madeireira
 cidade:
 conta_meta: act_813537901015193
-gasto_acumulado: R$ 4.004,91
+gasto_acumulado: R$ 4.005,09
 verba_mensal:
 atualizado: 2026-11-07
 ---
@@ -17,7 +17,7 @@ atualizado: 2026-11-07
 - Objetivo (leads / WhatsApp / vendas):
 
 ## Contas e acessos
-- Meta Ads: `act_813537901015193`, gasto da vida toda R$ 4.004,91 (levantamento de 22/10/2026)
+- Meta Ads: `act_813537901015193`, gasto da vida toda R$ 4.005,09 (atualizado em 09/11/2026)
 - Instagram: @madeireiracarajas (Bayeux-PB / João Pessoa)
 - Referência de resultado: CPA de R$ 3,01 por conversa iniciada
 - Auditoria mensal de Instagram existe como tarefa agendada (desligada; depende do vidIQ)

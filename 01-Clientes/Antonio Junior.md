@@ -4,7 +4,7 @@ status: ativo
 nicho: 
 cidade:
 conta_meta: act_1124474800018029
-gasto_acumulado: R$ 930,39
+gasto_acumulado: R$ 1.212,34
 verba_mensal:
 atualizado: 2026-11-07
 ---
@@ -17,7 +17,7 @@ atualizado: 2026-11-07
 - Objetivo (leads / WhatsApp / vendas):
 
 ## Contas e acessos
-- Meta Ads: `act_1124474800018029`, gasto da vida toda R$ 930,39 (levantamento de 22/10/2026)
+- Meta Ads: `act_1124474800018029`, gasto da vida toda R$ 1.212,34 (atualizado em 09/11/2026)
 - Única conta Meta visível hoje pelo conector Adspirer.
 
 ## Métricas-alvo

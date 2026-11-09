@@ -12,13 +12,13 @@
 
 ## 🔴 Só você pode (guia: [[05-Reconectar-Meta-e-Conectores]])
 - [ ] **Tornar o repositório `claude` privado** — hoje é público (IDs e gastos de contas, dados de cliente).
-- [ ] **Reconectar o Facebook no Pipeboard** — https://pipeboard.co/connections. O Facebook invalidou a sessão (troca de senha/segurança).
+- [x] **Pipeboard reconectado** (09/11): 20 contas lidas.
 - [ ] **Reconectar** "FACEBOOK META ADS" e vidIQ em claude.ai → Conectores (ou remover se não usar).
 - [ ] **Windsor** — desligar 14 contas (plano grátis = 1) ou desconectar o Windsor.
-- [ ] **Campanha GPS (ADELAIDE)** — você mandou desligar. Tentei pausar pelo Windsor: bloqueado pela sessão do Facebook. O Claude pausa assim que reconectar (ou pause no Gerenciador).
+- [x] **Campanha GPS (ADELAIDE)** — conferido em 09/11: PAUSADA.
 - [ ] **Apagar branches velhos** no GitHub (`compassionate-cori`, `skills-meta-ads`, `kind-carson`, `new-session`): o Claude foi bloqueado pela trava de segurança. GitHub → Branches → lixeira.
 - [ ] **Limpar conectores** incompletos/repetidos e tirar o Health Data Avatar das auditorias de Instagram.
-- [ ] **Publicar o CRM** no Lovable (botão Publish) depois de olhar a prévia.
+- [ ] **CRM**: pedir no Lovable "corrija todos os erros de build e typecheck" (1 mensagem), olhar a prévia e clicar Publish.
 - [ ] Rodar `99-Setup/instalar-arsenal-vibehub.ps1` no notebook + criar a chave da ElevenLabs.
 
 ## Resolvidas em 2026-10-21
