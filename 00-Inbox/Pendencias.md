@@ -1,16 +1,25 @@
 # Pendências (travas)
 
-## 🔴 Novas — auditoria de 2026-11-07 (detalhes em [[2026-11-07-Auditoria-Geral]])
+## 🟢 Feito na noite de 2026-11-07
+- [x] Post semanal automático **cancelado**.
+- [x] Sessões arquivadas: "Aumentar orçamento", "Meta contas bloqueadas", "Configuração de ferramentas".
+- [x] PR #1 fechado; trabalho da Sarto + auditoria + Vibehub juntados no `main` (PR #2).
+- [x] Obsidian Git: sync automático a cada 10 min (pull ao abrir).
+- [x] Vibehub pessoal em `03-Conhecimento/Vibehub/` + script de instalação do arsenal.
+- [x] Notas para 16 clientes em `01-Clientes/` + tabela da carteira (`00-Clientes.base`).
+- [x] 7 skills de Meta Ads com o contexto da Agência RA.
+- [x] CRM RADAR: banco reativado, app em construção no Lovable, guia de CRM e oferta em [[CRM-Trafego]].
+
+## 🔴 Só você pode (guia: [[05-Reconectar-Meta-e-Conectores]])
 - [ ] **Tornar o repositório `claude` privado** — hoje é público (IDs e gastos de contas, dados de cliente).
-- [ ] **Reconectar o Facebook no Pipeboard** — https://pipeboard.co/connections. Sem isso o Claude não lê nenhuma conta.
+- [ ] **Reconectar o Facebook no Pipeboard** — https://pipeboard.co/connections. O Facebook invalidou a sessão (troca de senha/segurança).
 - [ ] **Reconectar** "FACEBOOK META ADS" e vidIQ em claude.ai → Conectores (ou remover se não usar).
 - [ ] **Windsor** — desligar 14 contas (plano grátis = 1) ou desconectar o Windsor.
-- [ ] **Campanha GPS (ADELAIDE)** — conferir no Gerenciador se começou em 01/11; os lembretes estavam desligados.
-- [ ] **Fechar o PR #1** e apagar os branches `compassionate-cori`, `skills-meta-ads` e (após o merge) `kind-carson`.
-- [ ] **Arquivar sessões mortas** (Meta contas bloqueadas, Configuração de ferramentas) e responder as vivas.
+- [ ] **Campanha GPS (ADELAIDE)** — você mandou desligar. Tentei pausar pelo Windsor: bloqueado pela sessão do Facebook. O Claude pausa assim que reconectar (ou pause no Gerenciador).
+- [ ] **Apagar branches velhos** no GitHub (`compassionate-cori`, `skills-meta-ads`, `kind-carson`, `new-session`): o Claude foi bloqueado pela trava de segurança. GitHub → Branches → lixeira.
 - [ ] **Limpar conectores** incompletos/repetidos e tirar o Health Data Avatar das auditorias de Instagram.
-- [ ] **Supabase `crm-ricardo-alexandre` pausado** — reativar só se for retomar o CRM.
-- [ ] Decidir: `disablePush: true` no Obsidian Git.
+- [ ] **Publicar o CRM** no Lovable (botão Publish) depois de olhar a prévia.
+- [ ] Rodar `99-Setup/instalar-arsenal-vibehub.ps1` no notebook + criar a chave da ElevenLabs.
 
 ## Resolvidas em 2026-10-21
 - [x] **ffmpeg 9.0.2 e yt-dlp 2026.08.19** instalados via winget — skills de vídeo destravadas.
@@ -41,7 +50,7 @@
 - [ ] **Inventário Maria Sarto** — push autorizado; pedido enviado à sessão original em 2026-10-01.
 - [ ] **OpenJarvis** — `cd ~/jarvis && uv run jarvis doctor` e colar a saída pro Claude.
       Alternativa recomendada pelo Vibehub: Vibehub OS (skill `setup-vibehub-os`).
-- [ ] **CRM de tráfego pago** — sessão parada em "Quer que eu comece?". Supabase do CRM está pausado.
-- [ ] **Aumentar orçamento (26/10)** — sessão espera "sim" e se os +R$2 são por conjunto ou por campanha.
+- [ ] **CRM de tráfego pago** — reconstruído no Lovable em 07/11; ver [[CRM-Trafego]].
+- [x] **Aumentar orçamento (26/10)** — cancelado pelo Ricardo em 07/11.
 - [x] **Meta Ads (contas bloqueadas)** — resolvido em 22/10: nenhuma conta bloqueada ([[Meta-Contas-Status]]). Arquivar a sessão.
 - [ ] **Limite semanal** — evitar abrir várias sessões paralelas para o mesmo assunto.

@@ -11,12 +11,19 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 
 ## Como o Claude deve trabalhar comigo
 - Responder **sempre em português do Brasil**, direto, sem enrolação.
-- Antes de começar do zero, conferir: `03-Conhecimento/`, skills instaladas e o arsenal do Vibehub (MCP `vibehub`).
+- Antes de começar do zero, conferir: `03-Conhecimento/` (Vibehub em `03-Conhecimento/Vibehub/`), skills instaladas e o arsenal do Vibehub (MCP `vibehub`).
+- Pedido sobre um cliente → ler primeiro `01-Clientes/<cliente>.md` (há nota para as 17 contas). Visão da carteira: `01-Clientes/00-Clientes.base`.
 - Registrar decisões e entregas na nota do cliente em `01-Clientes/` e no diário `05-Diario/AAAA-MM-DD.md`.
 - Nunca colocar senhas, tokens ou chaves de API neste repositório.
 - **Repositório público** enquanto não virar privado: não subir dado sensível de cliente
   (CPF, telefone, contrato, transcrição de aula, valores negociados) até a visibilidade mudar.
 - Ações que gastam dinheiro ou mudam campanha (ativar, pausar, verba) só com "sim" explícito.
+
+## Decisões vigentes
+- **Adelaide Viana / GPS**: cliente parou o tráfego (07/11). Campanha 23859542649940790 deve ficar pausada.
+- **Post semanal automático**: cancelado (07/11).
+- **Obsidian Git**: sincroniza sozinho a cada 10 min (pull + commit + push). O Claude trabalha no branch da sessão
+  e junta no `main` via PR quando o Ricardo pede.
 
 ## Economia de tokens
 - Respostas curtas e diretas. Sem repetir o pedido, sem resumo final redundante.
@@ -53,7 +60,7 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 |---|---|
 | `00-Inbox/` | Ideias e pedidos soltos, para triar depois |
 | `01-Clientes/` | Uma nota por cliente (briefing, contas, campanhas, histórico) |
-| `02-Projetos/` | Projetos próprios (CRM, OpenJarvis, Agência) |
+| `02-Projetos/` | Projetos próprios — **CRM RADAR** (`CRM-Trafego.md`, app no Lovable), OpenJarvis |
 | `03-Conhecimento/` | Métodos, aulas do Vibehub, processos |
 | `04-Templates/` | Modelos de nota (cliente, diário) |
 | `05-Diario/` | Notas diárias |
@@ -69,7 +76,7 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 ## Conectores (claude.ai → Conectores) — conferido em 2026-11-07
 - **Funcionando**: Canva · GitHub · Gmail · Drive/Docs/Sheets/Slides · Agenda · Notion · Trello ·
   Supabase · Lovable · Magnific · Apify · Vibehub · Brightdeck · Adobe · morphix · Motion · Supermetrics.
-- **Meta Ads — atenção**: Pipeboard perdeu o login do Facebook; o conector oficial "FACEBOOK META ADS"
+- **Meta Ads — atenção**: sessão do Facebook invalidada em 07/11 (guia: `99-Setup/05-Reconectar-Meta-e-Conectores.md`). Pipeboard perdeu o login do Facebook; o conector oficial "FACEBOOK META ADS"
   e o vidIQ pedem reconexão; Windsor bloqueado (plano grátis = 1 conta); Adspirer só enxerga
   `BM- ANTONIO JUNIOR` (cota 11/15 no mês). Antes de operar campanha, conferir qual está vivo.
 Sem conector oficial: **CapCut** (usar Remotion/Magnific/vidIQ) e **Gemini** (chave de API/OpenRouter).

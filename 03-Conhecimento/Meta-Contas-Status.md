@@ -5,6 +5,10 @@ data: 2026-10-22
 ---
 # Status das contas de anúncio — Meta Ads
 
+> ⚠️ **07/11/2026**: o Facebook invalidou a sessão (erro 190/460). Nenhum conector lê as contas até
+> reconectar ([[05-Reconectar-Meta-e-Conectores]]). Dados abaixo são de 22/10.
+> Adelaide Viana (GPS): cliente encerrou o tráfego. Pausar a campanha ao reconectar.
+
 Levantado em 22/10/2026 pelo conector Pipeboard, **sem alterar nada**.
 
 ## Resumo

@@ -100,7 +100,7 @@ Só a Maria Sarto tem nota em `01-Clientes/`. As outras 18 contas ativas não t�
 Prioridade pelo gasto: Diametral-Orlamare, Dra. Thaynná, Fernanda Nanda, Madeireira Carajás, Pau D'Arco, ADELAIDE (GPS).
 
 ### 13. Vibehub
-Progresso real: Módulo 1 4/4 · Módulo 2 1/5 · todo o resto 0. A nota `03-Conhecimento/Vibehub.md` bate com isso.
+Progresso real: Módulo 1 4/4 · Módulo 2 1/5 · todo o resto 0. Índice completo em `03-Conhecimento/Vibehub/00-Indice.md`.
 Próximo passo sugerido continua: Módulo 2 → Módulo 4 → Vibe Business 2, 3 e 8.
 
 ## ✅ O que está saudável
