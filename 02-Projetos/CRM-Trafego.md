@@ -89,7 +89,8 @@ não quer largar. Prioridade: Madeireira Carajás e Pau D'Arco (volume de conver
 | Item | Status |
 |---|---|
 | Banco desenhado (Supabase, 13 tabelas, RLS) | ✅ desde 19/09, reativado em 07/11 |
-| App com telas (Lovable) | 🟡 em construção desde 07/11 (ver a prévia) |
+| App — 1ª rodada (07/11, 10 créditos) | ✅ banco + RLS, 7 funis, dados demo, login (1º = owner), painel geral, clientes, Kanban + lista, ficha do lead, tarefas, painel do cliente, simulador |
+| App — 2ª rodada (09/11) | 🟡 rodando: Importar CSV, Equipe, Configurações, formulário `/f/:token`, portal `/portal/:token` e correção do build (a prévia só abre depois dela) |
 | Publicar (botão Publish no Lovable) | ⏳ você, quando aprovar a prévia |
 | Domínio próprio (ex.: crm.agenciara.com.br) | ⏳ opcional, no Lovable |
 | Conversions API e públicos automáticos | fase 2 |
