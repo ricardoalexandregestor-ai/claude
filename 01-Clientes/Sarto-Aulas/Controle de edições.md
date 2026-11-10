@@ -10,7 +10,9 @@ Conta só as solicitações processadas pelo Claude. As aulas anteriores (até a
 |---|---|---|---|---|---|---|
 | 2026-10-30 | 3 | 4 | 2 | 2 | T02 L05 (base + perguntas), T01 L15 (base), T01 L15 (perguntas) | [[2026-10-30-Pedido-edicao-Sarto.pdf]] |
 
-**Total acumulado: 4 vídeos** (2 base + 2 perguntas)
+| 2026-11-10 | 2 | 2 | 2 | 0 | Básica L07 (base), Intermediária L17 (base) | [[2026-11-10-Pedido-edicao-Sarto.pdf]] |
+
+**Total acumulado: 6 vídeos** (4 base + 2 perguntas)
 
 ## Fora da contagem (briefings feitos antes do controle)
 - Lesson 07, Turma 01: base + perguntas (28/10)
