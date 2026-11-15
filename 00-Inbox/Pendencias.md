@@ -13,8 +13,13 @@
 ## 🟣 Modo Agência (2026-11-15)
 - [x] 7 agentes (`.claude/agents/`) e 8 comandos (`.claude/commands/`) criados — ver [[06-Modo-Agencia]].
 - [ ] Ligar conectores: Metricool, Firecrawl, TikTok for Business (e Semrush/Similarweb se quiser pagar).
-- [ ] Perplexity MCP: chave + comando em [[06-Modo-Agencia]] (o CLI já funciona).
-- [ ] **Obsidian Git parado desde 22/10** — `git pull` manual feito em 15/11; conferir se o sync automático voltou.
+      Página já aberta no Chrome em 15/11 (claude.ai/settings/connectors) — falta você clicar em Conectar.
+- [ ] **Perplexity: colar a chave de novo** — MCP já registrado (`--scope user`, conectado), mas a chave gravada
+      em 15/11 veio corrompida pelo Ctrl+V (API respondeu 401). Rodar `99-Setup/configurar-perplexity.ps1`
+      e colar com o **botão direito**; o script testa a chave antes de gravar. Depois abrir terminal novo.
+- [x] **Obsidian Git parado desde 22/10** — causa: o Obsidian ficou fechado desde 23/10 (o plugin só roda com o app aberto).
+      Corrigido em 15/11: Obsidian na inicialização do Windows (atalho em Startup) e reaberto; 1º commit automático às 02:30.
+- [x] Agentes (7) e comandos (8) conferidos em 15/11. Skills do Vibehub: 26 em `~/.claude/skills` (script não precisou rodar).
 
 ## 🔴 Só você pode (guia: [[05-Reconectar-Meta-e-Conectores]])
 - [ ] **Tornar o repositório `claude` privado** — hoje é público (IDs e gastos de contas, dados de cliente).
@@ -25,7 +30,7 @@
 - [ ] **Apagar branches velhos** no GitHub (`compassionate-cori`, `skills-meta-ads`, `kind-carson`, `new-session`): o Claude foi bloqueado pela trava de segurança. GitHub → Branches → lixeira.
 - [ ] **Limpar conectores** incompletos/repetidos e tirar o Health Data Avatar das auditorias de Instagram.
 - [ ] **CRM**: pedir no Lovable "corrija todos os erros de build e typecheck" (1 mensagem), olhar a prévia e clicar Publish.
-- [ ] Rodar `99-Setup/instalar-arsenal-vibehub.ps1` no notebook + criar a chave da ElevenLabs.
+- [x] Arsenal Vibehub no notebook (26 skills, conferido 15/11). - [ ] Criar a chave da ElevenLabs.
 
 ## Resolvidas em 2026-10-21
 - [x] **ffmpeg 9.0.2 e yt-dlp 2026.08.19** instalados via winget — skills de vídeo destravadas.

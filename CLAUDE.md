@@ -22,7 +22,8 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 ## Decisões vigentes
 - **Adelaide Viana / GPS**: cliente parou o tráfego (07/11). Campanha 23859542649940790 **pausada** (conferido em 09/11).
 - **Post semanal automático**: cancelado (07/11).
-- **Obsidian Git**: sincroniza sozinho a cada 10 min (pull + commit + push). O Claude trabalha no branch da sessão
+- **Obsidian Git**: sincroniza sozinho a cada 10 min (pull + commit + push) **só com o Obsidian aberto** —
+  ele abre com o Windows (atalho em Startup, desde 15/11). O Claude trabalha no branch da sessão
   e junta no `main` via PR quando o Ricardo pede.
 
 ## Modo Agência (agentes e comandos)
