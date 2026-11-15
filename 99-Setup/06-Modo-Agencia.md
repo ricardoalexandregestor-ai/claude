@@ -15,6 +15,19 @@ O vault já traz a equipe da agência pronta para o Claude Code (notebook) em `.
 | `/novo-cliente Nome nicho cidade` | nota, concorrentes, oferta e checklist de acessos |
 | `/pesquisa clínicas odontológicas em Belém` | pesquisa com fontes |
 | `/conteudo-semana Agência RA` | calendário orgânico da semana |
+| `/video link-do-drive anúncio` | edição com legendas, cortes e versões 9:16/4:5 |
+| `/auditoria-instagram @perfil` | auditoria em PDF 9:16 |
+
+## O que falta para criativos e vídeo saírem 100% pelo Claude
+| Item | Para quê | Custo |
+|---|---|---|
+| ElevenLabs (chave) | transcrição e limpeza de vídeo | ~US$ 5/mês |
+| Google AI Studio (chave) | imagens/thumbnails com Gemini | grátis |
+| Paper Design Pro + MCP | carrosséis editáveis | ~US$ 15/mês |
+| Upload-Post | publicar cortes em vários perfis | ~US$ 30/mês |
+| Higgsfield (terminar conexão) | fotos/vídeos com IA de alta qualidade | ~US$ 30/mês |
+| Perfil do criador (`~/.config/vha-vibe-marketing/perfil/`) | @, cores, avatar e fotos usados por todas as skills de conteúdo | grátis |
+As chaves vão em `~/.config/vha-vibe-marketing/.env`, fora do Git.
 
 ## Conectores — conferido em 2026-11-15
 Ligar em **claude.ai → Configurações → Conectores → Procurar conectores**. Só o Ricardo pode

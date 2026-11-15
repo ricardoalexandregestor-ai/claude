@@ -39,7 +39,9 @@ O Claude funciona como a equipe da Agência RA. Agentes em `.claude/agents/`, co
 | `pesquisador` | concorrentes, Biblioteca de Anúncios, tendências com fonte |
 
 Comandos: `/bom-dia` · `/raio-x [cliente|carteira]` · `/relatorio [cliente]` · `/campanha [cliente] [objetivo] [verba]` ·
-`/criativos [cliente]` · `/novo-cliente [nome]` · `/pesquisa [tema]` · `/conteudo-semana [cliente]`.
+`/criativos [cliente]` · `/video [arquivo] [objetivo]` · `/auditoria-instagram [cliente]` · `/novo-cliente [nome]` ·
+`/pesquisa [tema]` · `/conteudo-semana [cliente]`.
+Fluxo de campanha: estratégia → copy → criativos (`criativos-ads-ra`, Drive primeiro) → vídeo → subida PAUSADA via Pipeboard → "sim" para ativar.
 Plano de conectores para o modo agência: `99-Setup/06-Modo-Agencia.md`.
 
 ## Economia de tokens
@@ -59,7 +61,9 @@ Plano de conectores para o modo agência: `99-Setup/06-Modo-Agencia.md`.
 | Plugin `anthropic-skills` | Fornece `estrutura-campanha-funil`, `matheus-zappiello`, `copy-lp-queiroz` e outras. Gerenciado pelo app, fora das duas pastas acima. |
 
 ## Skills por tarefa
-- **Tráfego pago (método)**: `gestao-trafego-ra`, `estrutura-campanha-funil`, `matheus-zappiello`.
+- **Tráfego pago (método)**: `gestao-trafego-ra`, `estrutura-campanha-funil`, `matheus-zappiello`, `meta-ads-estrategia` (Bid Cap e escala).
+- **Criativos de anúncio**: `criativos-ads-ra` (Drive → Canva/HTML → sobe com 5 textos e 5 títulos).
+- **Auditoria e pesquisa**: `auditoria-instagram-cliente`, `deep-research`.
 - **Meta Ads (operação)**: `diagnostico-de-campanha-meta`, `calculadora-de-metas-meta`,
   `estrutura-de-campanha-meta`, `estrategista-de-criativos-meta`, `copy-de-anuncio-meta`,
   `auditor-de-politicas-meta`, `relatorio-para-cliente-meta`.
