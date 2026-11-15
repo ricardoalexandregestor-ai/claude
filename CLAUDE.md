@@ -86,14 +86,17 @@ Plano de conectores para o modo agência: `99-Setup/06-Modo-Agencia.md`.
 ## Ambiente do notebook
 - Git 2.55.0 · Node 26.7.0 · npm 11.19.0 · Python 3.15.0 · Obsidian 1.14.4 com Obsidian Git 2.42.0.
 - ffmpeg 9.0.2, yt-dlp 2026.08.19, jq, uv, Pillow, numpy, librosa, google-genai instalados (out/2026).
-- CLI `claude` 2.1.307 instalado em `~\.local\bin`, **fora do PATH** (ver `00-Inbox/Pendencias.md`).
+- CLI `claude` 2.1.307 em `~\.local\bin`, **no PATH** e logado (15/11). Permissões amplas em `~\.claude\settings.json`
+  (acceptEdits + allow geral; bloqueia só comandos destrutivos).
+- **Remote Control** ativo em `Documents\claude` (modo same-dir): pedir pelo app → Code escolhendo o notebook.
 - Whisper local não roda no Python 3.15 (sem PyTorch) → transcrição via ElevenLabs Scribe.
 - Windows: 815 GB livres de 931 GB. Na tomada **não suspende nem desliga a tela** — bom para sessões longas.
 
 ## Conectores (claude.ai → Conectores) — conferido em 2026-11-07
 - **Funcionando**: Canva · GitHub · Gmail · Drive/Docs/Sheets/Slides · Agenda · Notion · Trello ·
   Supabase · Lovable · Magnific · Apify · Vibehub · Brightdeck · Adobe · morphix · Motion · Supermetrics.
-- **Meta Ads**: **Pipeboard reconectado em 09/11**, lendo as 20 contas (principal para ler e operar). O conector oficial "FACEBOOK META ADS"
+- **Meta Ads**: em 15/11 o **conector oficial "FACEBOOK META ADS" voltou** (21 contas; 4 ainda sem MCP liberado pela Meta)
+  e o **Pipeboard bateu o limite semanal do plano grátis**. Usar o oficial para ler; Pipeboard quando o limite renovar. O conector oficial "FACEBOOK META ADS"
   e o vidIQ podem ainda pedir reconexão; Windsor bloqueado (plano grátis = 1 conta); Adspirer só enxerga
   `BM- ANTONIO JUNIOR` (cota 11/15 no mês). Antes de operar campanha, conferir qual está vivo.
 Sem conector oficial: **CapCut** (usar Remotion/Magnific/vidIQ) e **Gemini** (chave de API/OpenRouter).

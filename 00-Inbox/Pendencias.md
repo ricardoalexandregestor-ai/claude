@@ -13,7 +13,8 @@
 ## 🟣 Modo Agência (2026-11-15)
 - [x] 7 agentes (`.claude/agents/`) e 8 comandos (`.claude/commands/`) criados — ver [[06-Modo-Agencia]].
 - [ ] Ligar conectores: Metricool, Firecrawl, TikTok for Business (e Semrush/Similarweb se quiser pagar).
-- [ ] Perplexity MCP: chave + comando em [[06-Modo-Agencia]].
+- [ ] Perplexity MCP: chave + comando em [[06-Modo-Agencia]] (o CLI já funciona).
+- [ ] **Obsidian Git parado desde 22/10** — `git pull` manual feito em 15/11; conferir se o sync automático voltou.
 
 ## 🔴 Só você pode (guia: [[05-Reconectar-Meta-e-Conectores]])
 - [ ] **Tornar o repositório `claude` privado** — hoje é público (IDs e gastos de contas, dados de cliente).
@@ -39,7 +40,8 @@
 - [x] **Juntar o vault no `main`** — merge feito, 13 skills no `main`, README unificado.
 
 ## Abertas — só eu posso resolver
-- [ ] **PATH do CLI `claude`** — o binário está em `C:\Users\Usuario\.local\bin\claude.exe`,
+- [x] **PATH do CLI `claude`** — resolvido em 15/11 (`claude --version` = 2.1.307, login feito, Remote Control ligado).
+      Antes: — o binário está em `C:\Users\Usuario\.local\bin\claude.exe`,
       mas a pasta não entrou no PATH. Rodar uma vez no PowerShell e reabrir o terminal:
       `[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable("Path","User") + ";$HOME\.local\bin", "User")`
 - [ ] **Perplexity MCP** — MCP oficial confirmado (`perplexityai/modelcontextprotocol`).
