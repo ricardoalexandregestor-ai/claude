@@ -25,6 +25,23 @@ Toda sessão do Claude (Code no notebook, nuvem ou app) começa lendo este arqui
 - **Obsidian Git**: sincroniza sozinho a cada 10 min (pull + commit + push). O Claude trabalha no branch da sessão
   e junta no `main` via PR quando o Ricardo pede.
 
+## Modo Agência (agentes e comandos)
+O Claude funciona como a equipe da Agência RA. Agentes em `.claude/agents/`, comandos em `.claude/commands/`.
+
+| Agente | Quando usar |
+|---|---|
+| `estrategista` | posicionamento, oferta, funil, verba e metas |
+| `gestor-trafego` | ler, diagnosticar e montar campanhas (cria sempre PAUSADA) |
+| `analista-dados` | raio-x, alertas de meta, relatórios |
+| `copywriter` | anúncios, LP, WhatsApp (revisa políticas da Meta) |
+| `diretor-criativo` | ângulos, roteiros, artes e vídeos |
+| `social-media` | calendário orgânico, roteiros, agendamento |
+| `pesquisador` | concorrentes, Biblioteca de Anúncios, tendências com fonte |
+
+Comandos: `/bom-dia` · `/raio-x [cliente|carteira]` · `/relatorio [cliente]` · `/campanha [cliente] [objetivo] [verba]` ·
+`/criativos [cliente]` · `/novo-cliente [nome]` · `/pesquisa [tema]` · `/conteudo-semana [cliente]`.
+Plano de conectores para o modo agência: `99-Setup/06-Modo-Agencia.md`.
+
 ## Economia de tokens
 - Respostas curtas e diretas. Sem repetir o pedido, sem resumo final redundante.
 - Pedidos recorrentes (tráfego, campanha, criativo, copy, carrossel): ir direto na skill

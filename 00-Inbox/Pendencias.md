@@ -10,6 +10,11 @@
 - [x] 7 skills de Meta Ads com o contexto da Agência RA.
 - [x] CRM RADAR: banco reativado, app em construção no Lovable, guia de CRM e oferta em [[CRM-Trafego]].
 
+## 🟣 Modo Agência (2026-11-15)
+- [x] 7 agentes (`.claude/agents/`) e 8 comandos (`.claude/commands/`) criados — ver [[06-Modo-Agencia]].
+- [ ] Ligar conectores: Metricool, Firecrawl, TikTok for Business (e Semrush/Similarweb se quiser pagar).
+- [ ] Perplexity MCP: chave + comando em [[06-Modo-Agencia]].
+
 ## 🔴 Só você pode (guia: [[05-Reconectar-Meta-e-Conectores]])
 - [ ] **Tornar o repositório `claude` privado** — hoje é público (IDs e gastos de contas, dados de cliente).
 - [x] **Pipeboard reconectado** (09/11): 20 contas lidas.
