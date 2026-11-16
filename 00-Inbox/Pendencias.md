@@ -21,6 +21,14 @@
       Corrigido em 15/11: Obsidian na inicialização do Windows (atalho em Startup) e reaberto; 1º commit automático às 02:30.
 - [x] Agentes (7) e comandos (8) conferidos em 15/11. Skills do Vibehub: 26 em `~/.claude/skills` (script não precisou rodar).
 
+## 🟠 HD externo e Drive (2026-11-15)
+- [x] F: organizado (estrutura numerada 01–09 + 99 - Revisar Total), duplicados apagados, 216 GB livres.
+- [ ] Revisar `F:\99 - Revisar Total` com o Claude (versões repetidas de episódios 8,6 GB, legendas extras, músicas sem gênero, PDFs antigos).
+- [ ] Apagar à mão a pasta vazia `F:\BACKUP` (só tem desktop.ini; a ferramenta bloqueou a remoção).
+- [ ] Com internet boa: instalar Google Drive para computador (login 1x), subir material de cliente para as pastas de cada cliente,
+      espelhar a estrutura do F: e ligar backup das fotos no Google Fotos (conferir espaço da conta antes: fotos ≈ 17 GB).
+- [ ] Séries sem áudio PT: Arrow, Breaking Bad, House of Cards (e parte de Dexter/HTGAWM). Só com áudio que você já tenha.
+
 ## 🔴 Só você pode (guia: [[05-Reconectar-Meta-e-Conectores]])
 - [ ] **Tornar o repositório `claude` privado** — hoje é público (IDs e gastos de contas, dados de cliente).
 - [x] **Pipeboard reconectado** (09/11): 20 contas lidas.
